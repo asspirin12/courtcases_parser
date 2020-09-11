@@ -56,4 +56,4 @@ for (i in 1:100) {
   write.table(text[[i]], paste0("clean_data/case", i, ".txt"))
 }
 
-# merge in terminal. command 
+# merge in terminal. command "cat *.txt > cases.txt"
